@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 from langchain_community.vectorstores import DocArrayInMemorySearch
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_pinecone import PineconeVectorStore
 from langchain.chains.combine_documents import create_stuff_documents_chain
