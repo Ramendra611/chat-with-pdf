@@ -8,3 +8,4 @@ python-dotenv
 pypdf
 langchain-chroma
 docarray
+sqlite3==3.35.0
