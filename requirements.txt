@@ -1,0 +1,10 @@
+streamlit
+docarray
+langchain==0.1.16
+langchain_community
+langchain_openai
+langchain_pinecone
+python-dotenv
+pypdf
+langchain-chroma
+docarray

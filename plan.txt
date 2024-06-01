@@ -1,0 +1,9 @@
+1. Load a pdf file in the UI
+2. Create  vector database ( Pinecone/Chroma/Faiss)
+        - Split the pdf file(textsplitter)
+        - Create embeddings( OpenAIEmbeddings/ GoogleGEmini/ Ollama)
+        - Store the embeddings in the vector database
+        - retriever
+3. Create a  prompt ( this to ask the LLM to answer on the context)
+4. create retrieval chain --> question --> retriever --> context+question --->  prompt ---> LLM ---> string response
+5. Show the response to the user in the UI
