@@ -7,3 +7,12 @@
 3. Create a  prompt ( this to ask the LLM to answer on the context)
 4. create retrieval chain --> question --> retriever --> context+question --->  prompt ---> LLM ---> string response
 5. Show the response to the user in the UI
+
+
+
+## Deploy Plan
+        - Create a git repository
+        - Create a AWS account
+        - Create a EC2 instance
+        - clone the git repository
+        - run the streamlit application in the ec2

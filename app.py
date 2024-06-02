@@ -44,6 +44,7 @@ if uploaded_file is not None:
         pinecone_index = "rag-application"
         st.session_state.db = PineconeVectorStore.from_texts(
             texts=split_docs, embedding=embeddings, index_name=pinecone_index)
+    
         # st.session_state.db = Chroma.from_texts(split_docs, embeddings)
         st.write("Knowledgebase created !")
 
